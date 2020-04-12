@@ -1,1 +1,3 @@
-export interface Plugin{}
+export interface Plugin {
+    init(): void;
+}

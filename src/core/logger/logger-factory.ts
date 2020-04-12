@@ -9,7 +9,7 @@ export class LoggerFactory {
     }
 
     private static init(): Logger {
-        //Todo: add other loggers here
+        // Todo: add other loggers here
         return new ConsoleLogger();
     }
 }
