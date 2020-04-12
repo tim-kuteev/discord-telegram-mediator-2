@@ -1,5 +1,5 @@
 import { Logger } from "./logger";
-import { ConsoleLogger } from "./console-logger";
+import { ConsoleLogger } from "./console/console-logger";
 
 export class LoggerFactory {
     private static _current: Logger;
