@@ -1,4 +1,4 @@
-import * as Telegraf from 'telegraf';
+import Telegraf = require('telegraf');
 
 // TODO: doesn't work
 export class TelegramBot extends Telegraf {
