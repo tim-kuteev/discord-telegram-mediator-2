@@ -1,3 +1,4 @@
+/*
 import Telegraf = require('telegraf');
 
 // TODO: doesn't work
@@ -9,3 +10,4 @@ export class TelegramBot extends Telegraf {
     super(process.env.TELEGRAM_TOKEN);
   }
 }
+*/
